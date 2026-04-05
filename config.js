@@ -19,7 +19,7 @@ module.exports = {
     packname: 'Knight Bot Mini',
     
     // Bot Behavior
-    selfMode: false, // Private mode - only owner can use commands
+    selfMode: true, // Private mode - only owner can use commands
     autoRead: true,
     autoTyping: true,
     autoBio: false,
@@ -34,7 +34,7 @@ module.exports = {
       antilinkAction: 'delete', // 'delete', 'kick', 'warn'
       antitag: false,
       antitagAction: 'delete',
-      antiall: true, // Owner only - blocks all messages from non-admins
+      antiall: false, // Owner only - blocks all messages from non-admins
       antiviewonce: true,
       antibot: false,
       anticall: true, // Anti-call feature
