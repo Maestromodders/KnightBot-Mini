@@ -34,17 +34,17 @@ module.exports = {
       antilinkAction: 'delete', // 'delete', 'kick', 'warn'
       antitag: false,
       antitagAction: 'delete',
-      antiall: false, // Owner only - blocks all messages from non-admins
-      antiviewonce: false,
+      antiall: true, // Owner only - blocks all messages from non-admins
+      antiviewonce: true,
       antibot: false,
-      anticall: false, // Anti-call feature
+      anticall: true, // Anti-call feature
       antigroupmention: false, // Anti-group mention feature
       antigroupmentionAction: 'delete', // 'delete', 'kick'
       welcome: false,
       welcomeMessage: '╭╼━≪•𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁•≫━╾╮\n┃𝚆𝙴𝙻𝙲𝙾𝙼𝙴: @user 👋\n┃Member count: #memberCount\n┃𝚃𝙸𝙼𝙴: time⏰\n╰━━━━━━━━━━━━━━━╯\n\n*@user* Welcome to *@group*! 🎉\n*Group 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽*\ngroupDesc\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ botName*',
       goodbye: false,
       goodbyeMessage: 'Goodbye @user 👋 We will never miss you!',
-      antiSpam: false,
+      antiSpam: true,
       antidelete: true,
       nsfw: false,
       detect: false,
