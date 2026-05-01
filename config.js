@@ -4,14 +4,14 @@
 
 module.exports = {
     // Bot Owner Configuration
-    ownerNumber: ['254788409105','254756992340'], // Add your number without + or spaces (e.g., 919876543210)
+    ownerNumber: ['254788409105','254103260460'], // Add your number without + or spaces (e.g., 919876543210)
     ownerName: ['Knight Bot Mini', 'Professor'], // Owner names corresponding to ownerNumber array
     
     // Bot Configuration
     botName: 'Knight Bot Mini',
-    prefix: 'V',
+    prefix: ',',
     sessionName: 'session',
-    sessionID: process.env.SESSION_ID || 'KnightBot!H4sIAAAAAAAAA5VUXZOiOBT9L3nVGgERP6q6apEWRFFBRRq35iFA+BAImAQEp/zvU9jTM/OwO9vLU0hS55577jn5BnCRULRGLZh9AyVJashQt2RticAMzKswRAT0QQAZBDPQKo60mqtcipQVthx28aKhj4lzPd84Z75ab82bwtubHhtOXsCjD8rKyxL/D4CbRgguUTpnFm3GBbVj5BuyubvrcbM8Xu16/DY2Ar/aVLz+Ah4dIkxIgqNFGaMcEZitUWvChHyOvrDKtJgLLztnJ2e1tBUmd2EjoOASOz0zGg3d1fJo1BeHOdHn6C9v6Rt/WSoei2/u6Grfay+xp4lQ7C9WHYhqTiwcH0++nW/e6dMkwijQA4RZwtpP664pyG62E/amaxnsqQPNWEvZcTi8D4bJYLG8LFirnouRa9ru54i3YcsY8V71aFBZpWhZak+M6za/an7oUVovDO41rLfyXrZ+J26SD6+k/0d3a2u2rZjLS+4+9A164Rf4+npK87ndTGQpXy+27hEvck/Lxc/Rd/Z6YjHerdJj0/RMJXYz0dCNt1ez18s9Dg/ydhWxa+N82KajD1lF/uiORql4c3WOgyh9fS2ZJ/QOCdNNSPD4GLfnbStrfigeLfFo4ntF5+fmtFRRGgyMt/3G6F1zhWzP02p8Wg9hGB32qIovt5dnRylq9QDM+EcfEBQllBHIkgJ3e8NJH8CgPiCfIPZUFwjWNa3XByl1Q1JgZ6VPW9G77adjfajibHLJZOG0ydx0uyheQB+UpPARpShYJpQVpN0gSmGEKJj9/bUPMGrY+9ye1fg+CBNCmY2rMitg8DHUj0Po+0WF2aHFvtItEAEz7tc2YizBEe1krDAkfpzUSIkho2AWwoyinw0iggIwY6RCP0OrFEGnu+pq6/1hI4A+yJ/zSIKu55E4nkxEbspzo9mY/4t+uXWwsCy/YMRAH2TPa/x0IvFjTuCH3Ijjpt3N7uDxk2EHGCAGk4yCGVBWzqmZ+vOFoWFuMtE0eRHJSiSDXx19OONdevFi8YEusM2itGhka8l9jJfr2jyER4+/qjDlTvyJpbrDuS//AAJmYJJIvbvA3RS0dKUUH7eLa0A9yStxL5OKSXkqsSZp9lrfSnbZxHhwhvXEGqA3S5OTk+zaLDBpOk2n2XWjDaMbqVau3NmoDwJUJz76vdiOZLFpp+pquTvddnVlVtOlIdnjm5+uOFOyFP9eZ/RUa7V1obZaDlXRsEJIxV1zRYV52sQWriRXgzJqD2LtWIJnx/K7Z5+ZyX68VcnTTt2sut8wQc/oY9hN8L9n9068sxj36P+G8eMx+ZdAzpHObd8OW3Kcr21DV+cF7Y2altw5zAlTGDvlVg1O3llRmQYej699UGaQhQXJwQxAHJAiCUAfkKLqPKvjsPhDMUVOdfkWGV3nGaRM/pWDY5IjymBeghk/Ho+lkSBJwz7IW7ksDwyyj/gAufvmCwQe3wG8FYiQWQcAAA==',
+    sessionID: process.env.SESSION_ID || 'KnightBot!H4sIAAAAAAAAA5VUXZOiOBT9L3nVmgZUUKu6amlQ/EQRP8CteQgQIBI+TAKIU/73KezpmXnYne19CyF17rnnnHu/gSzHDC1RA8bfQEFxBTlqj7wpEBiDtzIMEQVdEEAOwRiUc+ovbjd9wfPTttzE9oiph0l8MQ67OFrycO+ITnkrJP80fwWPLihKj2D/D4DrF9tduldc7pnVCxq50/QxmiFlWuzc6uQdhKRJ4eAqOdh6BY8WEWKKs2hSxChFFJIlarYQ08/Rn6yN8+XFrNS7j8JUpmvpVrsOJeu+b51FyU7FIY83yUY4CJ+jXzpXifiesVexKG6Pts+13TaawS1Zn04E5961yXWHzZTd8J0+w1GGgnmAMo5582ndc2M4TZlMRtMgSfQYJxm/Xp1R52BLHfKiC3E0o0Z0ORLh8Dnib0dhONJJKnX0ReWL28ul1zjGKNd03ZoqxnR5i+/CVL/EE+t34lv6kZXk/+ieT4f3m+Nrrpps1pAI+VQ/XNBgOb3It4nIEnchNYujoWHjk7GJ7/fadnNls5sdS2PpapbReMHwRc+tEJpKMGGHmq2GqTGZ/KIPeUn/xJJzd+rv/PC08N5Ifkr6mtOxC1x4Kyfx31Z3wWy8tJZGbuhFtZoyQpZGIphz1zg7I2EvknqD1rwfY4zssgzCq6pQtX59dpSgZh6AsfjoAooizDiFHOdZe9frAhhUNvIp4k9xwTKYDYomjm8ZMo6TKVGvJd3WZ1M6mmfJNHQ91vyXqLmvjPoVdEFBcx8xhoIZZjynzRoxBiPEwPjvr12QoRt/t+1ZTOyCEFPGD1lZkBwGH55+/IS+n5cZt5vM19oDomAs/LpGnOMsYq2KZQapH+MKaTHkDIxDSBj62R+iKABjTkv0c2a1PGhl3/UHjm3OLNAF6dMOHIAxkAZ9UehJstCXhbEk/8W+1C0sLIovGeKgC8jzWU9QRGXUF+VBT5Z67cP2/vGTYIsXIA4xYWAMtI3Xj+vEGiqX/b12XdVW1aWqtqJ9NPSRi3fle7vzfGMqVfribE6H0bUj7S/zRnZX+3ze31vldietijUhjOT/BNKGykyrwFws1G2mLAMsYX0S3FZJNarLRWLcFUVRWHCzfdvSIn6I9pZKJ7O6ULNsIDkenAy1E10Mwr4qW+Z1NSK9RLrr1mtbLUAV9tHvxRadjnVXtYjIHc2r30SyDU3WY/dgp3q7gVndmGGEehn3hpM95voMCTNpCS+eOfM6m+bSGa5Ec0NuL1ezqm3qmrujIr9Z74l9Tgz5sanwM02tVe1niNFz8DPYGvjf1r0TbxMmPLq/YfxYJf+2ogLhZOsXpAwq8U7IFlY86TfrMtUEWdtMhNVFCLC8X5y9BQSPx9cuKAjkYU5TMAYwC2iOA9AFNC/byM6zMP9DMU1N5roV2W3nBDKu/hqDPU4R4zAtwFhUFEUe9EfC8PEdwclK2DoHAAA=',
     newsletterJid: '120363161513685998@newsletter', // Newsletter JID for menu forwarding
     updateZipUrl: 'https://github.com/mruniquehacker/KnightBot-Mini/archive/refs/heads/main.zip', // URL to latest code zip for .update command
     
@@ -20,8 +20,8 @@ module.exports = {
     
     // Bot Behavior
     selfMode: true, // Private mode - only owner can use commands
-    autoRead: true,
-    autoTyping: true,
+    autoRead: false,
+    autoTyping: false,
     autoBio: false,
     autoSticker: false,
     autoReact: false,
